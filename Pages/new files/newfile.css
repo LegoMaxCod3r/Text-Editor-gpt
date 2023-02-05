@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Signika&display=swap');
+
+:root
+{
+    --larger-point: url(../../Assets/larg.cur), auto;
+    --textHover-doc: url(./Assets/textHover1.cur), auto;
+    /*Colors*/
+    --dynamic-green: rgb(27, 155, 27);
+    --dynamic-white: aliceblue;
+    --dynamic-black: #232425;
+    --dynamic-blue: #0000FF;
+
+    --dynamic-file-white: rgb(205, 210, 214);
+
+    /*Colors Hover*/
+    --dynamic-green-h:rgb(47, 199, 47);
+    --dynamic-file-white-h: rgb(224, 229, 233);
+    --montSerrat: 'Montserrat';
+    --Lato: 'Lato';
+    --Signik: 'Signika';
+}
+
+.file-nav
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: var(--dynamic-black);
+    font-family: var(--montSerrat);
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin-bottom: 1.2rem;
+}
+
+.nav-file-item
+{
+    margin: 0 auto;
+}
+
+.text-file-ac
+{
+    font-size: 21px;
+}
+
+.paper
+{
+    margin: 0 auto;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    
+}
+.blank-useless
+{
+    text-align: center;
+    background-color: aliceblue;
+    width: max-content;
+    margin: 0 auto;
+    justify-content: center;
+    cursor: var(--larger-point);
+
+}
+
+.par-container
+{
+    height: 23cm;
+    overflow-y: scroll;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.page-paper-dynamic
+{
+    
+    border: var(--dynamic-black) 2px solid; 
+    width: 21.59cm;
+    height: 27.94cm;
+}
+.text-blank
+{
+    margin: 0 auto;
+}
+.sorry-msg
+{
+    color: var(--dynamic-black);
+    vertical-align: middle;
+}

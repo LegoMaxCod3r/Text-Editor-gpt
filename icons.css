@@ -1,0 +1,116 @@
+a:any-link
+{
+    text-decoration: none;
+}
+
+#faq:hover
+{
+    background-color: rgb(214, 219, 223);
+    content: url(./Icons/Nav/help_FILL1_wght400_GRAD0_opsz48.svg);
+    
+}
+
+#home:hover
+{
+   
+    content: url(./Icons/Nav/home_FILL1_wght400_GRAD0_opsz48.svg);
+}
+
+#add:hover
+{
+    content: url(./Icons/Nav/note_add_FILL1_wght400_GRAD0_opsz48.svg);
+}
+
+#open:hover
+{
+    content: url(./Icons/Nav/file_open_FILL1_wght400_GRAD0_opsz48.svg);
+}
+
+#feed:hover
+{
+    background-color: rgb(214, 219, 223);
+    content: url(./Icons/Nav/rate_review_FILL1_wght400_GRAD0_opsz48.svg);
+}
+
+#news:hover
+{
+    background-color: rgb(214, 219, 223);
+}
+.pin
+{
+    cursor: pointer;
+    border-radius: 50%;
+    transform: rotate(45deg);
+}
+.pin:hover
+{
+    content: url(./Icons/files/push_pin_FILL1_wght400_GRAD0_opsz48.svg);
+    background-color: rgb(178, 183, 187);
+}
+/*.pin:active
+{
+    content: url(./Icons/files/push_pin_FILL1_wght400_GRAD0_opsz48.svg);
+    background-color: rgb(178, 183, 187);
+    border: 1px black solid;
+}*/
+#edit
+{
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+#edit:hover
+{
+    
+    background-color: rgb(178, 183, 187);
+    content: url(./Icons/files/edit_FILL1_wght400_GRAD0_opsz48.svg);
+    
+}
+#del
+{
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+#del:hover
+{
+    
+    background-color: rgb(178, 183, 187);
+    content: url(./Icons/files/delete_FILL1_wght400_GRAD0_opsz48.svg);
+    
+}
+#add-file
+{
+    vertical-align: middle;
+    border-radius: 50%;
+ 
+}
+
+#add-file:hover
+{
+    background-color: rgb(178, 183, 187);
+    content: url(./Icons/files/add_circle_FILL1_wght400_GRAD0_opsz48.svg);
+}
+
+#add-temp
+{
+    vertical-align: middle;
+    border-radius: 50%;
+ 
+}
+
+#add-temp:hover
+{
+    background-color: rgb(178, 183, 187);
+    content: url(./Icons/Nav/create_temp_FILL1_wght400_GRAD0_opsz48.svg);
+}
+
+#imp-temp
+{
+    border-radius: 12%;
+}
+#imp-temp:hover
+{
+    background-color: rgb(178, 183, 187);
+    content: url(./Icons/files/imp_temp_FILL1_wght400_GRAD0_opsz48.svg);
+}
